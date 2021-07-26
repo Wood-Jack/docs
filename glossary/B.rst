@@ -70,5 +70,5 @@ Depositing money in the `auction contract<A.html#auction-contract>`_ and try to 
 
 Booking block
 ^^^^^^^^^^^^^
-The booking block for an era is the block that determines the era's validator set. In it, the `auction contract<A.html#auction-contract>`_ selects the highest bidders to be the future era's validators. There is a configurable delay, the *auction_delay*, which is the number of eras between the booking block and the era to which it applies. The booking block is always a switch block, so the booking block for era *N + auction_delay + 1* is the last block of era *N*.
+The booking block for an era is the block that determines the era's validator set. In it, in the [auction contract](https://docs.casperlabs.io/en/latest/glossary/A.html#auction-contract) selects the highest bidders to be the future era's validators. There is a configurable delay, the *auction_delay*, which is the number of eras between the booking block and the era to which it applies. The booking block is always a switch block, so the booking block for era *N + auction_delay + 1* is the last block of era *N*.
 
